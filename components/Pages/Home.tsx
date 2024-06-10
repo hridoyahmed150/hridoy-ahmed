@@ -1,41 +1,49 @@
 import React from "react";
+import Header from "components/common/header";
+import Diamond from "components/svg/diamond";
 
 export default function Home() {
   return (
     <>
       <div className="Home_container">
         <div className="!px-2 bg-[#FAF9F6] container md:!p-0 relative mx-auto">
-          <div className="mb-0 text-white flex justify-center items-center bg-primary py-2 md:py-3 sticky top-0 z-[2] -mx-2 md:mx-0 md:px-0 px-4 left-0">
-            <div className="md:inline-block">
-              <a
-                className="flex justify-center items-center gap-2"
-                download=""
-                href="/Khandaker_Habibul_Amin_Resume.pdf"
-              >
-                <h2 className="md:text-xl">Download My CV</h2>
-                <img src="/download-img.png" alt="" className="h-8 w-8" />
-              </a>
-            </div>
-          </div>
+          <Header />
           <div className="flex gap-6 flex-col md:flex-row rounded-xl">
             <div className="block md:hidden">
               <div>
-                <h1 className="mt-2 text-4xl font-semibold">
-                  Khandaker Habibul Amin
-                </h1>
+                <h1 className="mt-2 text-4xl font-semibold">Hridoy Ahmed</h1>
                 <h4 className="mt-2 text-primary-green font-semibold text-xl">
                   Software Engineer, Frontend
                 </h4>
                 <p className="mt-3 text-base text-black">
-                  I am an enthusiastic frontend engineer who likes to learn new
-                  technologies and using these knowledges in problem solving by
-                  writing more suitable and readable code.
+                  I am an enthusiastic frontend engineer with a passion for
+                  learning new technologies and applying this knowledge to solve
+                  problems. I strive to write clean, suitable, and readable code
+                  to enhance user experiences and improve application
+                  performance.
                 </p>
               </div>
             </div>
-            <div className="xs:overflow-hidden text-white border-l xs:rounded-xl relative bg-[#313C4E] pt-10 pb-4 px-8 md:w-[300px] min-h-screen">
-              <div className="absolute top-0 right-[10px] bottom-0 w-[10px] bg-[#449399]" />
-              <div className="absolute top-0 right-0 bottom-0 w-[10px] bg-[#A1C9CC]" />
+            <div className="xs:overflow-hidden text-black border-l xs:rounded-xl relative bg-[#fff] pt-10 pb-4 px-8 md:w-[300px] min-h-screen">
+              {/* <div className="absolute top-0 right-[10px] bottom-0 w-[10px] bg-[#449399]" /> */}
+              {/* <div className="absolute top-0 right-0 bottom-0 w-[2px] bg-[#A1C9CC]" /> */}
+              <div
+                className="top-6 right-0 bottom-0 w-[2px] bg-[#A1C9CC] absolute h-[97%]"
+                style={{ backgroundColor: "rgb(193, 196, 202)" }}
+              >
+                <div
+                  className="w-4 h-4 -left-[7px] background-size-[16px 16px] absolute -top-2 "
+                  style={{
+                    backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="rgba(193, 196, 202,1)" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" xml:space="preserve"><g id="text">	<path class="st0" d="M15.3,1.2l8.5,8.5c1.6,1.6,1.6,4.1,0,5.7l-8.5,8.5c-1.6,1.6-4.1,1.6-5.7,0l-8.5-8.5c-1.6-1.6-1.6-4.1,0-5.7 l8.5-8.5C11.2-0.4,13.8-0.4,15.3,1.2z"/></g></svg>')`,
+                  }}
+                />
+                <div
+                  className="w-4 h-4  -left-[7px] background-size-[16px 16px] absolute -bottom-2 "
+                  style={{
+                    backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="rgba(193, 196, 202,1)" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" xml:space="preserve"><g id="text">	<path class="st0" d="M15.3,1.2l8.5,8.5c1.6,1.6,1.6,4.1,0,5.7l-8.5,8.5c-1.6,1.6-4.1,1.6-5.7,0l-8.5-8.5c-1.6-1.6-1.6-4.1,0-5.7 l8.5-8.5C11.2-0.4,13.8-0.4,15.3,1.2z"/></g></svg>')`,
+                  }}
+                />
+              </div>
               <div className="flex flex-col gap-5 mb-14">
                 <div className="flex gap-3 items-start text-sm">
                   <svg
@@ -180,9 +188,6 @@ export default function Home() {
                   </div>
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#449399]">
                     Next.JS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#449399]">
-                    React-Query
                   </div>
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#449399]">
                     React-Hook-Form
