@@ -29,3 +29,12 @@ body {
     text-wrap: balance;
   }
 }
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 60 78 / var(--tw-bg-opacity));
+}
+
+.bg-primary-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 147 153 / var(--tw-bg-opacity));
+}

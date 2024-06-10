@@ -345,9 +345,11 @@ export default function Home() {
                     Software Engineer, Frontend
                   </h4>
                   <p className="mt-3 text-base text-black">
-                    I am an enthusiastic frontend engineer who likes to learn
-                    new technologies and using these knowledges in problem
-                    solving by writing more suitable and readable code.
+                    I am an enthusiastic frontend engineer with a passion for
+                    learning new technologies and applying this knowledge to
+                    solve problems. I strive to write clean, suitable, and
+                    readable code to enhance user experiences and improve
+                    application performance.
                   </p>
                 </div>
               </div>
@@ -380,8 +382,8 @@ export default function Home() {
                   <div className="mt-4 pl-[11px] flex-col flex gap-3 flex-wrap">
                     <div className="flex w-full gap-6">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
-                      <div className="hidden desktop-view:block absolute bg-primary w-[1px] h-[18px] -top-4 left-[16px]" />
-                      <div className="hidden desktop-view:block absolute bg-primary w-[1px] h-[400px] top-[26px] left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary w-[1px] h-[18px] -top-4 left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary w-[1px] h-[400px] top-[26px] left-[16px]" />
                       <div className="w-full">
                         <div className="w-full mb-2">
                           <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">
@@ -546,7 +548,7 @@ export default function Home() {
                     </div>
                     <div className="flex w-full gap-6">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
-                      <div className="hidden desktop-view:block absolute bg-primary w-[1px] h-[350px] top-[457px] left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary w-[1px] h-[350px] top-[457px] left-[16px]" />
                       <div className="w-full">
                         <div className="w-full mb-2">
                           <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">
