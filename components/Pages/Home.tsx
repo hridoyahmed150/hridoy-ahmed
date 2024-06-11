@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
       <div className="Home_container ">
-        <div className="!px-2 bg-white container md:!p-0 relative mx-auto">
+        <div className="!px-2 bg-[#FAF9F6] container md:!p-0 relative mx-auto">
           <Header />
-          <div className="flex gap-6 flex-col md:flex-row rounded-xl">
+          <div className="flex gap-6 flex-col md:flex-row rounded-xl ">
             <div className="block md:hidden">
               <div>
                 <h1 className="mt-2 text-4xl font-semibold">Hridoy Ahmed</h1>
@@ -30,7 +30,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="xs:overflow-hidden text-black xs:rounded-xl relative bg-[#fff] pt-10 pb-4 px-8 md:w-[312px] min-h-screen">
+            <div className="xs:overflow-hidden text-black xs:rounded-xl relative bg-[#FAF9F6] pt-10 pb-4 px-8 md:w-[312px] ">
               <div
                 className="top-6 right-0 bottom-0 w-[2px] bg-[#A1C9CC] absolute h-[97%]"
                 style={{ backgroundColor: "rgb(193, 196, 202)" }}
