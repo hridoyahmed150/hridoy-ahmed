@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className="xs:overflow-hidden text-black xs:rounded-xl relative bg-[#FAF9F6] pt-10 pb-4 px-8 md:w-[312px] ">
               <div
-                className="top-6 right-0 bottom-0 w-[2px] bg-[#A1C9CC] absolute h-[97%]"
+                className="top-6 right-0 bottom-0 w-[2px] bg-[#A1C9CC] absolute h-[97%] hidden md:block"
                 style={{ backgroundColor: "rgb(193, 196, 202)" }}
               >
                 <div
@@ -244,15 +244,7 @@ export default function Home() {
               </div>
               <div className="mt-6">
                 <div className="flex items-center gap-3 font-bold text-xl">
-                  <div
-                    style={{
-                      backgroundColor: "#313C4E",
-                      padding: 12,
-                      height: 35,
-                      width: 35,
-                    }}
-                    className="rounded-full"
-                  >
+                  <div className="rounded-full bg-[#313C4E] p-3 h-[35px] w-[35px]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="48"
@@ -269,8 +261,8 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="flex md:items-center flex-col md:flex-row">
-                    WORK EXPERIENCE
-                    <span className="text-primary-green font-semibold">
+                    WORK EXPERIENCE{" "}
+                    <span className="text-primary-green font-semibold pl-2">
                       {" "}
                       ( 5 years+ )
                     </span>
@@ -278,10 +270,10 @@ export default function Home() {
                 </div>
                 <div className="relative">
                   <div className="mt-4 pl-[11px] flex-col flex gap-3 flex-wrap">
-                    <div className="flex w-full gap-6">
+                    <div className="flex w-full gap-6 relative">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
-                      <div className="hidden md:block absolute bg-primary w-[1px] h-[18px] -top-4 left-[16px]" />
-                      <div className="hidden md:block absolute bg-primary w-[1px] h-[400px] top-[26px] left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[18px] -top-4 left-[6px]" />
+                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[640px] top-[26px] left-[6px]" />
                       <div className="w-full">
                         <div className="w-full mb-2">
                           <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">
@@ -519,10 +511,10 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex w-full gap-6">
+                    <div className="flex w-full gap-6 relative">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
-                      <div className="hidden md:block absolute bg-primary w-[1px] h-[18px] -top-4 left-[16px]" />
-                      <div className="hidden md:block absolute bg-primary w-[1px] h-[400px] top-[26px] left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[18px] -top-4 left-[6px]" />
+                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[200px] top-[26px] left-[6px]" />
                       <div className="w-full">
                         <div className="w-full mb-2">
                           <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">
