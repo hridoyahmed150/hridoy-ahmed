@@ -7,8 +7,14 @@ import { IoLocationOutline, IoLogoGithub } from "react-icons/io5";
 import { CiLinkedin } from "react-icons/ci";
 import { FaSquareGithub } from "react-icons/fa6";
 import { GiSkills } from "react-icons/gi";
+import { TbMessageLanguage } from "react-icons/tb";
+import { PiPhosphorLogoBold } from "react-icons/pi";
 
 export default function Home() {
+  const booletPoint = {
+    backgroundImage: `url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 22.2 22.2" style="enable-background:new 0 0 22.2 22.2;" xml:space="preserve" fill="%23c1c4ca"><g id="text"><path class="st0" d="M11.1,22.2c-1.5,0-2.9-0.6-3.9-1.6L1.6,15c-2.1-2.1-2.1-5.6,0-7.8c0,0,0,0,0,0l5.6-5.6c2.1-2.1,5.6-2.1,7.8,0 c0,0,0,0,0,0l5.6,5.6c2.1,2.1,2.1,5.6,0,7.8c0,0,0,0,0,0L15,20.6C13.9,21.6,12.5,22.2,11.1,22.2z M9.3,18.4c1,1,2.6,1,3.5,0 l5.6-5.6c1-1,1-2.5,0-3.5c0,0,0,0,0,0l-5.6-5.6c-1-1-2.6-1-3.5,0L3.7,9.3c-1,1-1,2.5,0,3.5c0,0,0,0,0,0L9.3,18.4z"/></g></svg>')`,
+    backgroundSize: "12px 12px",
+  };
   return (
     <>
       <div className="Home_container ">
@@ -139,7 +145,7 @@ export default function Home() {
                   <div className="rounded-full">
                     <FaGraduationCap className="scale-[1.1] w-6 h-6" />
                   </div>
-                  Education
+                  EDUCATION
                 </div>
                 <div className="absolute bg-gray-500 w-[1px] h-[38px] top-6 left-[10px]" />
                 <div className="absolute bg-gray-500 w-[1px] h-[90px] top-[72px] left-[10px]" />
@@ -167,25 +173,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="mb-10">
-                <div className="flex items-center gap-3 font-bold text-xl">
-                  <div
-                    style={{
-                      backgroundColor: "white",
-                      padding: 12,
-                      height: 35,
-                      width: 35,
-                    }}
-                    className="rounded-full"
-                  >
-                    <img
-                      src="https://d.novoresume.com/yna_pub/svg/section/lang/a-1.svg"
-                      alt=""
-                      className="scale-[2]"
-                    />
+                <div className="flex justify-start items-center gap-4 font-bold text-xl">
+                  <div>
+                    <TbMessageLanguage className="scale-[1.1] w-6 h-6" />
                   </div>
                   LANGUAGES
                 </div>
-                <div className="mt-6">
+                <div className="mt-6 pl-10">
                   <div className="mb-2">
                     <h3 className="mb-1">English</h3>
                     <p className="text-sm">
@@ -201,39 +195,24 @@ export default function Home() {
                 </div>
               </div>
               <div className="mb-10">
-                <div className="flex items-center gap-3 font-bold text-xl">
-                  <div
-                    style={{
-                      backgroundColor: "white",
-                      padding: 12,
-                      height: 35,
-                      width: 35,
-                    }}
-                    className="rounded-full"
-                  >
-                    <img
-                      src="https://d.novoresume.com/yna_pub/svg/section/interests/a-1.svg"
-                      alt=""
-                      className="scale-[2]"
-                    />
+                <div className="flex justify-start items-center gap-4 font-bold text-xl">
+                  <div>
+                    <PiPhosphorLogoBold className="scale-[1.1] w-6 h-6" />
                   </div>
                   INTERESTS
                 </div>
                 <div className="mt-6 flex gap-2 flex-wrap">
-                  <div className="text-white px-3 rounded text-sm py-1 bg-transparent border border-white">
+                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
                     Problem Solving
                   </div>
-                  <div className="text-white px-3 rounded text-sm py-1 bg-transparent border border-white">
-                    Reading Books
+                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
+                    Traveling
                   </div>
-                  <div className="text-white px-3 rounded text-sm py-1 bg-transparent border border-white">
+                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
                     Playing Video Games
                   </div>
-                  <div className="text-white px-3 rounded text-sm py-1 bg-transparent border border-white">
-                    History
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 bg-transparent border border-white">
-                    Travel
+                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
+                    Playing Football
                   </div>
                 </div>
               </div>
@@ -329,124 +308,268 @@ export default function Home() {
                           <p className="italic text-primary-green text-sm">
                             Achievements/Tasks
                           </p>
-                          <ul className="list-disc marker:text-primary-green">
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  Created in house UI library from scratch for
-                                  having better developer experience, used{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Storybook
+                          <ul className="list-disc marker:text-primary-green mt-4 space-y-2">
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Worked on{" "}
+                                  <span className="text-black font-bold">
+                                    10 Minute School
                                   </span>{" "}
-                                  for documentation and{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Shadcn &amp; Tailwind CSS
+                                  platform, using{" "}
+                                  <span className="text-black font-bold">
+                                    Angular
                                   </span>{" "}
-                                  for styling the components. Published the
-                                  package in{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Github Packages
+                                  for course display, progress tracking, and
+                                  certificates. Also collaborated on{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Next.js{" "}
                                   </span>{" "}
-                                  for better version control and easy to use in
-                                  other projects.
+                                  for managing landing page content, ensuring a
+                                  seamless user experience.
                                 </span>
                               </div>
                             </li>
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  Developing a robust procurement system using{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    React.js
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Implemented{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Mixpanel{" "}
                                   </span>{" "}
-                                  and enforced strict{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    TypeScript with Zod schema validation and
-                                    React-Query
+                                  tracking within the 10 Minute School platform,
+                                  enabling advanced{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    analytics{" "}
                                   </span>{" "}
-                                  for enhanced code quality.
+                                  and user behavior{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    tracking
+                                  </span>{" "}
+                                  to enhance engagement, refine content
+                                  strategies, and improve overall platform
+                                  performance.
                                 </span>
                               </div>
                             </li>
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  In this procurement system it is totally
-                                  dynamic form depended site. Using{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    React-Hook-Form with Zod schema
-                                  </span>{" "}
-                                  for achieving perfect validation in all{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    dynamic forms
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Designed and developed the{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Affiliation Program{" "}
                                   </span>
-                                  .
+                                  website from scratch using Angular, ensuring a
+                                  seamless user experience and modern interface.
                                 </span>
                               </div>
                             </li>
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  Created dynamic expense and integration module
-                                  that enables the creation of versatile expense
-                                  categories usable across different areas of
-                                  the platform for expense.
-                                </span>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  Integrated the{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Contentful headless CMS
+
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Developed a{" "}
+                                  <span className="text-black font-bold">
+                                    Progressive Web App (PWA){" "}
                                   </span>{" "}
-                                  to enable efficient content management.
+                                  for the Affiliation Program website, enhancing
+                                  user engagement and providing an app-like
+                                  experience on mobile devices.
                                 </span>
                               </div>
                             </li>
-                            <li>
-                              <div>
-                                <span style={{ fontSize: 14 }}>
-                                  Designed a fully dynamic website experience
-                                  using{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Astro and Tailwind CSS
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Designed and developed a comprehensive{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    teacher dashboard{" "}
                                   </span>
-                                  , where content such as blogs, text, buttons,
-                                  images etc. are totally driven by the{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    Contentful CMS
+                                  , enabling functionalities such as{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    exam creation{" "}
                                   </span>
-                                  . This website is so dynamic that it has
-                                  almost near about{" "}
-                                  <span
-                                    style={{ fontWeight: 700, color: "#000" }}
-                                  >
-                                    5-6% developer dependency
+                                  ,{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    class management{" "}
+                                  </span>
+                                  , teacher assignment, teacher assistant
+                                  assignment, and doubt solver assignment,
+                                  improving overall efficiency for educators.
+                                </span>
+                              </div>
+                            </li>
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Developed an{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    advisor dashboard{" "}
                                   </span>{" "}
-                                  , everything is handing by content team using
-                                  Contentful CMS.
+                                  enabling SMS communication, transaction
+                                  monitoring, product exchange, extension, and
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    payment validation{" "}
+                                  </span>
+                                  , optimizing advisor workflows for increased
+                                  efficiency.
+                                </span>
+                              </div>
+                            </li>
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Developed a{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    CMS{" "}
+                                  </span>{" "}
+                                  with{" "}
+                                  <span className="text-black font-bold">
+                                    Angular{" "}
+                                  </span>{" "}
+                                  and{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Angular Material{" "}
+                                  </span>{" "}
+                                  for K12 and Skill Up sections, simplifying
+                                  course, quizzes, and lessons management, and
+                                  streamlining content updating and assignment
+                                  processes for improved educational delivery.
+                                </span>
+                              </div>
+                            </li>
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Developed a{" "}
+                                  <span className="text-black font-bold">
+                                    sales dashboard{" "}
+                                  </span>{" "}
+                                  using Angular,
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Chart.js{" "}
+                                  </span>
+                                  , and{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Tailwind CSS{" "}
+                                  </span>
+                                  , showcasing sales, affiliate, and product
+                                  reports, facilitating data-driven
+                                  decision-making for enhanced business
+                                  performance.
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full gap-6">
+                      <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
+                      <div className="hidden md:block absolute bg-primary w-[1px] h-[18px] -top-4 left-[16px]" />
+                      <div className="hidden md:block absolute bg-primary w-[1px] h-[400px] top-[26px] left-[16px]" />
+                      <div className="w-full">
+                        <div className="w-full mb-2">
+                          <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">
+                            <div className="flex items-center gap-2">
+                              <h2 className="text-lg font-semibold text-black">
+                                CLIP N TOUCH
+                              </h2>{" "}
+                              <a href="https://clipntouch.com/" target="_blank">
+                                <img
+                                  src="https://d.novoresume.com/yna_pub/svg/hyperlink/hyperlink/b-1.svg"
+                                  alt=""
+                                  className="h-4 w-4"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <p className="text-black font-semibold">
+                            Software Engineer Frontend
+                          </p>
+                          <div className="flex my-1 w-full justify-between items-center">
+                            <p className="italic text-primary-green text-sm">
+                              07/2018 - 11/2019
+                            </p>
+                            <p className="italic text-primary-green text-sm">
+                              Dhaka, Bangladesh
+                            </p>
+                          </div>
+                        </div>
+                        <div>
+                          <p className="italic text-primary-green text-sm">
+                            Achievements/Tasks
+                          </p>
+                          <ul className="list-disc marker:text-primary-green mt-4 space-y-2">
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Worked on{" "}
+                                  <span className="text-black font-bold">
+                                    10 Minute School
+                                  </span>{" "}
+                                  platform, using{" "}
+                                  <span className="text-black font-bold">
+                                    Angular
+                                  </span>{" "}
+                                  for course display, progress tracking, and
+                                  certificates. Also collaborated on{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    Next.js{" "}
+                                  </span>{" "}
+                                  for managing landing page content, ensuring a
+                                  seamless user experience.
                                 </span>
                               </div>
                             </li>
