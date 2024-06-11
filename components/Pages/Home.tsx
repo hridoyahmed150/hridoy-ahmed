@@ -123,7 +123,19 @@ export default function Home() {
                     React-Hook-Form
                   </div>
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
+                    Git
+                  </div>
+                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
+                    jQuery
+                  </div>
+                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
                     Tailwind-CSS
+                  </div>
+                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
+                    Laravel
+                  </div>
+                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
+                    PHP
                   </div>
 
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
@@ -131,9 +143,6 @@ export default function Home() {
                   </div>
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
                     CSS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Git
                   </div>
                   <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
                     REST API
@@ -554,22 +563,36 @@ export default function Home() {
                               ></div>
                               <div className="w-full">
                                 <span>
-                                  Worked on{" "}
-                                  <span className="text-black font-bold">
-                                    10 Minute School
-                                  </span>{" "}
-                                  platform, using{" "}
-                                  <span className="text-black font-bold">
-                                    Angular
-                                  </span>{" "}
-                                  for course display, progress tracking, and
-                                  certificates. Also collaborated on{" "}
+                                  Developed an{" "}
                                   <span className="text-black font-bold">
                                     {" "}
-                                    Next.js{" "}
+                                    inventory management system{" "}
                                   </span>{" "}
-                                  for managing landing page content, ensuring a
-                                  seamless user experience.
+                                  using{" "}
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    AngularJS{" "}
+                                  </span>
+                                  , handling all aspects of the project from
+                                  start to finish as the sole developer.
+                                </span>
+                              </div>
+                            </li>
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Collaborated closely with team members to
+                                  <span className="text-black font-bold">
+                                    {" "}
+                                    design{" "}
+                                  </span>{" "}
+                                  intuitive interfaces and implement robust
+                                  features, fostering effective communication
+                                  and continuous learning.
                                 </span>
                               </div>
                             </li>
