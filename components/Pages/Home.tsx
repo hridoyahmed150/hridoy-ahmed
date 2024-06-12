@@ -277,7 +277,7 @@ export default function Home() {
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[790px] top-[26px] left-[5px]"
+                        className="hidden md:block absolute  w-[1px] h-[640px] top-[26px] left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div className="w-full">
