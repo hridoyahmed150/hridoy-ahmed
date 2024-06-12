@@ -5,7 +5,6 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaGraduationCap, FaMobileAlt } from "react-icons/fa";
 import { IoLocationOutline, IoLogoGithub } from "react-icons/io5";
 import { CiLinkedin } from "react-icons/ci";
-import { FaSquareGithub } from "react-icons/fa6";
 import { GiSkills } from "react-icons/gi";
 import { TbMessageLanguage } from "react-icons/tb";
 import { PiPhosphorLogoBold } from "react-icons/pi";
@@ -17,9 +16,9 @@ export default function Home() {
   };
   return (
     <>
-      <div className="Home_container ">
+      <div className="Home_container relative">
+        <Header />
         <div className="!px-2 bg-[#FAF9F6] container md:!p-0 relative mx-auto">
-          <Header />
           <div className="flex gap-6 flex-col md:flex-row rounded-xl ">
             <div className="block md:hidden">
               <div>
