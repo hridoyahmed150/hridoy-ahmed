@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <div className="Home_container ">
         <div className="!px-2 bg-[#FAF9F6] container md:!p-0 relative mx-auto">
-          <Header />
+          {/* <Header /> */}
           <div className="flex gap-6 flex-col md:flex-row rounded-xl ">
             <div className="block md:hidden">
               <div>
