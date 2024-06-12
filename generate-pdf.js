@@ -9,14 +9,25 @@ const puppeteer = require("puppeteer");
     waitUntil: "networkidle2",
   });
 
-  // Add an extra wait time to ensure everything is rendered
+  // Add a delay to ensure everything is rendered
   await new Promise((resolve) => setTimeout(resolve, 5000)); // wait for 5 seconds
 
-  // Generate the PDF
+  // Dynamically scale the page content
+  await page.evaluate(() => {
+    document.body.style.zoom = "0.8"; // Adjust the zoom level as needed
+  });
+
+  // Generate the PDF with adjusted settings
   await page.pdf({
     path: "site.pdf",
-    format: "A3",
+    format: "A4",
     printBackground: true,
+    margin: {
+      top: "0mm",
+      bottom: "0mm",
+      left: "0mm",
+      right: "0mm",
+    },
   });
 
   await browser.close();
