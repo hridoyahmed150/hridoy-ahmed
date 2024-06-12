@@ -272,8 +272,14 @@ export default function Home() {
                   <div className="mt-4 pl-[11px] flex-col flex gap-3 flex-wrap">
                     <div className="flex w-full gap-6 relative">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
-                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[18px] -top-4 left-[6px]" />
-                      <div className="hidden md:block absolute bg-primary-light w-[1px] h-[640px] top-[26px] left-[6px]" />
+                      <div
+                        className="hidden md:block absolute  w-[1px] h-[18px] -top-4 left-[6px]"
+                        style={{ backgroundColor: "rgb(193, 196, 202)" }}
+                      />
+                      <div
+                        className="hidden md:block absolute  w-[1px] h-[640px] top-[26px] left-[6px]"
+                        style={{ backgroundColor: "rgb(193, 196, 202)" }}
+                      />
                       <div className="w-full">
                         <div className="w-full mb-2">
                           <div className="flex flex-col mb-2 md:mb-0 md:flex-row w-full gap-1 justify-between md:items-center">

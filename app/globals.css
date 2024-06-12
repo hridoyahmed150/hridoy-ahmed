@@ -16,6 +16,16 @@
   }
 }
 
+@font-face {
+  font-family: "YourFont";
+  src: url("/fonts/YourFont.woff2") format("woff2"),
+    url("/fonts/YourFont.woff") format("woff");
+}
+
+body {
+  font-family: "YourFont", sans-serif;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
