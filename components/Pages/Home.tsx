@@ -273,11 +273,11 @@ export default function Home() {
                     <div className="flex w-full gap-6 relative">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[18px] -top-4 left-[4px]"
+                        className="hidden md:block absolute  w-[1px] h-[18px] -top-4 left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[800px] top-[26px] left-[4px]"
+                        className="hidden md:block absolute  w-[1px] h-[790px] top-[26px] left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div className="w-full">
@@ -520,7 +520,7 @@ export default function Home() {
                     <div className="flex w-full gap-6 relative">
                       <div className="bg-primary-green mt-2 w-3 h-3 rounded-full" />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[200px] top-[26px] left-[4px]"
+                        className="hidden md:block absolute  w-[1px] h-[200px] top-[26px] left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div className="w-full">
