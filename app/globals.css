@@ -28,7 +28,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #faf9f6;
+  background: #fff;
   padding: 0;
   margin: 0;
   font-family: Quicksand, sans-serif;
