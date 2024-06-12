@@ -19,7 +19,7 @@ const puppeteer = require("puppeteer");
 
   // Generate the PDF with adjusted settings
   await page.pdf({
-    path: "site.pdf",
+    path: "hridoy-ahmed.pdf",
     format: "A4",
     printBackground: true,
     margin: {
