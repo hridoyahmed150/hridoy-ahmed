@@ -8,6 +8,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { GiSkills } from "react-icons/gi";
 import { TbMessageLanguage } from "react-icons/tb";
 import { PiPhosphorLogoBold } from "react-icons/pi";
+import { GoLinkExternal } from "react-icons/go";
 
 export default function Home() {
   const booletPoint = {
@@ -290,10 +291,9 @@ export default function Home() {
                                 href="https://10minuteschool.com/"
                                 target="_blank"
                               >
-                                <img
-                                  src="https://d.novoresume.com/yna_pub/svg/hyperlink/hyperlink/b-1.svg"
-                                  alt=""
-                                  className="h-4 w-4"
+                                <GoLinkExternal
+                                  className="bg-red"
+                                  color="#449399"
                                 />
                               </a>
                             </div>
@@ -530,11 +530,7 @@ export default function Home() {
                                 CLIP N TOUCH
                               </h2>{" "}
                               <a href="https://clipntouch.com/" target="_blank">
-                                <img
-                                  src="https://d.novoresume.com/yna_pub/svg/hyperlink/hyperlink/b-1.svg"
-                                  alt=""
-                                  className="h-4 w-4"
-                                />
+                                <GoLinkExternal color="#449399" />
                               </a>
                             </div>
                           </div>
