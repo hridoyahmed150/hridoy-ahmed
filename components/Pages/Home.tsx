@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <div className="Home_container ">
         <div className="!px-2 bg-[#FAF9F6] container md:!p-0 relative mx-auto">
-          {/* <Header /> */}
+          <Header />
           <div className="flex gap-6 flex-col md:flex-row rounded-xl ">
             <div className="block md:hidden">
               <div>
@@ -277,7 +277,7 @@ export default function Home() {
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[790px] top-[26px] left-[5px]"
+                        className="hidden md:block absolute  w-[1px] h-[645px] top-[26px] left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div className="w-full">

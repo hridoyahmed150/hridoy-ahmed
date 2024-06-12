@@ -7,8 +7,8 @@ export default function header() {
       <div className="md:inline-block">
         <a
           className="flex justify-center items-center gap-2"
-          download="hridoy-ahmed.pdf"
-          href="/hridoy-ahmed.pdf"
+          download="hridoy_ahmed.pdf"
+          href="/hridoy_ahmed.pdf"
         >
           <h2 className="md:text-xl">Download My CV</h2>
           <BsCloudDownloadFill className="w-6 h-6" />
