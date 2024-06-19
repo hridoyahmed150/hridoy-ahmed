@@ -54,43 +54,59 @@ export default function Home() {
                   }}
                 />
               </div>
-              <div className="flex flex-col gap-5 mb-14">
-                <div className="flex gap-3 justify-start items-center text-sm">
+              <div className="space-y-2 mb-14">
+                <div className="link relative flex gap-3 justify-start items-center text-sm">
                   <MdOutlineEmail className="w-5 h-5" />
 
-                  <span className="">hridoyahmed150@gmail.com</span>
-                </div>
-                <div className="flex justify-start gap-3 items-start text-sm">
-                  <FaMobileAlt className="w-5 h-5" />
+                  <a className="py-1" href="mailto:hridoyahmed150@gmail.com">
+                    hridoyahmed150@gmail.com
+                  </a>
 
-                  <span className="">+8801681101130</span>
+                  {/* <span className="">hridoyahmed150@gmail.com</span> */}
+                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
-                <div className="flex justify-start gap-3 items-start text-sm">
+                <div className="link relative flex justify-start gap-3 items-center text-sm">
+                  <FaMobileAlt className="w-5 h-5" />
+                  <a className="py-1" href="tel:+8801681101130">
+                    +8801681101130
+                  </a>
+
+                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                </div>
+                <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <IoLocationOutline className="w-5 h-5" />
 
-                  <span className="">Dhaka, Bangladesh</span>
+                  <address className="py-1">Dhaka, Bangladesh</address>
+                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
-                <div className="flex justify-start gap-3 items-start text-sm">
+                <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <CiLinkedin className="w-5 h-5" />
 
                   <a
                     href="https://www.linkedin.com/in/hridoyahmed150/"
                     target="_blank"
-                    className=""
+                    className="py-1"
                   >
                     linkedin.com/in/hridoyahmed150
                   </a>
+                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
-                <div className="flex justify-start gap-3 items-start text-sm">
+                <div className="link relative flex justify-start gap-3  text-sm  items-center">
                   <IoLogoGithub className="w-5 h-5" />
 
                   <a
                     href="https://github.com/hridoyahmed150"
                     target="_blank"
-                    className=""
+                    className="py-1"
                   >
                     github.com/hridoyahmed150
                   </a>
+                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
               </div>
               <div className="mb-10">

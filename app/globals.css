@@ -61,3 +61,7 @@ body {
 ul {
   list-style: none !important;
 }
+
+.link:hover span {
+  width: 50%;
+}
