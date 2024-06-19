@@ -55,20 +55,19 @@ export default function Home() {
                 />
               </div>
               <div className="space-y-2 mb-14">
-                <div className="link relative flex gap-3 justify-start items-center text-sm">
+                <div className="link relative flex gap-3 justify-start items-start text-sm">
                   <MdOutlineEmail className="w-5 h-5" />
 
-                  <a className="py-1" href="mailto:hridoyahmed150@gmail.com">
+                  <a className="pb-1.5" href="mailto:hridoyahmed150@gmail.com">
                     hridoyahmed150@gmail.com
                   </a>
 
-                  {/* <span className="">hridoyahmed150@gmail.com</span> */}
                   <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                   <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
                 <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <FaMobileAlt className="w-5 h-5" />
-                  <a className="py-1" href="tel:+8801681101130">
+                  <a className="py-1.5" href="tel:+8801681101130">
                     +8801681101130
                   </a>
 
@@ -78,7 +77,7 @@ export default function Home() {
                 <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <IoLocationOutline className="w-5 h-5" />
 
-                  <address className="py-1">Dhaka, Bangladesh</address>
+                  <address className="py-1.5">Dhaka, Bangladesh</address>
                   <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                   <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
@@ -88,7 +87,7 @@ export default function Home() {
                   <a
                     href="https://www.linkedin.com/in/hridoyahmed150/"
                     target="_blank"
-                    className="py-1"
+                    className="py-1.5"
                   >
                     linkedin.com/in/hridoyahmed150
                   </a>
@@ -101,7 +100,7 @@ export default function Home() {
                   <a
                     href="https://github.com/hridoyahmed150"
                     target="_blank"
-                    className="py-1"
+                    className="py-1.5"
                   >
                     github.com/hridoyahmed150
                   </a>
@@ -117,52 +116,72 @@ export default function Home() {
                   SKILLS
                 </div>
                 <div className="mt-6 flex gap-2 flex-wrap">
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    JavaScript
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    TypeScript
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Angular
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Angular Material
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    React.JS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Next.JS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    React-Hook-Form
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Git
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    jQuery
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Tailwind-CSS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    Laravel
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    PHP
-                  </div>
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">JavaScript</span>
+                  </button>
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">TypeScript</span>
+                  </button>
 
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    HTML
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    CSS
-                  </div>
-                  <div className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6]">
-                    REST API
-                  </div>
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Angular</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Angular Material</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">React.JS</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Next.JS</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">React-Hook-Form</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Git</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">jQuery</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Tailwind-CSS</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Bootstrap</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">SASS</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Laravel</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">PHP</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">HTML</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">CSS</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">REST API</span>
+                  </button>
                 </div>
               </div>
               <div className="mb-10 relative">
@@ -227,18 +246,21 @@ export default function Home() {
                   INTERESTS
                 </div>
                 <div className="mt-6 flex gap-2 flex-wrap">
-                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
-                    Problem Solving
-                  </div>
-                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
-                    Traveling
-                  </div>
-                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
-                    Playing Video Games
-                  </div>
-                  <div className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2]">
-                    Playing Football
-                  </div>
+                  <button className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2] hover:text-white relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Problem Solving</span>
+                  </button>
+
+                  <button className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2] hover:text-white relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Traveling</span>
+                  </button>
+
+                  <button className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2] hover:text-white relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Playing Video Games</span>
+                  </button>
+
+                  <button className=" px-3 rounded text-sm py-1 bg-transparent border border-[#b2b2b2] hover:text-white relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Playing Football</span>
+                  </button>
                 </div>
               </div>
             </div>
