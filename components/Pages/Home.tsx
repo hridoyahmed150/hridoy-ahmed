@@ -62,8 +62,8 @@ export default function Home() {
                     hridoyahmed150@gmail.com
                   </a>
 
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
                 <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <FaMobileAlt className="w-5 h-5" />
@@ -71,15 +71,15 @@ export default function Home() {
                     +8801681101130
                   </a>
 
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
                 <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <IoLocationOutline className="w-5 h-5" />
 
                   <address className="py-1.5">Dhaka, Bangladesh</address>
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
                 <div className="link relative flex justify-start gap-3 items-center text-sm">
                   <CiLinkedin className="w-5 h-5" />
@@ -91,8 +91,8 @@ export default function Home() {
                   >
                     linkedin.com/in/hridoyahmed150
                   </a>
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
                 <div className="link relative flex justify-start gap-3  text-sm  items-center">
                   <IoLogoGithub className="w-5 h-5" />
@@ -104,8 +104,8 @@ export default function Home() {
                   >
                     github.com/hridoyahmed150
                   </a>
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
+                  <span className="absolute bottom-0 right-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
                 </div>
               </div>
               <div className="mb-10">
