@@ -59,7 +59,7 @@ export default function Home() {
                   <MdOutlineEmail className="w-5 h-5" />
 
                   <a className="pb-1.5" href="mailto:hridoyahmed150@gmail.com">
-                    hridoyahmed150@gmail.com
+                    hridoyahmed9391@gmail.com
                   </a>
 
                   <span className="absolute bottom-0 left-1/2 w-0 transition-all h-0.5 bg-primary-green"></span>
