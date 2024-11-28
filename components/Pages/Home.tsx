@@ -140,6 +140,14 @@ export default function Home() {
                   </button>
 
                   <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">Wordpress</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+                    <span className="relative ">jQuery</span>
+                  </button>
+
+                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
                     <span className="relative ">React-Hook-Form</span>
                   </button>
 
@@ -147,9 +155,7 @@ export default function Home() {
                     <span className="relative ">Git</span>
                   </button>
 
-                  <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
-                    <span className="relative ">jQuery</span>
-                  </button>
+
 
                   <button className="text-white px-3 rounded text-sm py-1 font-medium bg-[#989da6] relative flex items-center justify-center overflow-hidden transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#449399] before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
                     <span className="relative ">Tailwind-CSS</span>
@@ -315,7 +321,7 @@ export default function Home() {
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div
-                        className="hidden md:block absolute  w-[1px] h-[645px] top-[26px] left-[5px]"
+                        className="hidden md:block absolute  w-[1px] h-[723px] top-[26px] left-[5px]"
                         style={{ backgroundColor: "rgb(193, 196, 202)" }}
                       />
                       <div className="w-full">
@@ -376,6 +382,23 @@ export default function Home() {
                                   </span>{" "}
                                   for managing landing page content, ensuring a
                                   seamless user experience.
+                                </span>
+                              </div>
+                            </li>
+
+                            <li className="flex items-start">
+                              <div
+                                className="w-3 h-3 bg-no-repeat mr-2 mt-1.5"
+                                style={booletPoint}
+                              ></div>
+                              <div className="w-full">
+                                <span>
+                                  Contributed to the development of the{" "}
+                                  <span className="text-black font-bold">10 Minute School Blog</span>{" "}
+                                  using <span className="text-black font-bold">WordPress</span>,
+                                  managing blog content creation, optimization, and layout
+                                  design to ensure an engaging and user-friendly platform
+                                  for educational resources.
                                 </span>
                               </div>
                             </li>
